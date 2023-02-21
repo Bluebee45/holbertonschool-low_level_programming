@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - function
@@ -11,10 +11,12 @@ int main(void)
 {
 char letters;
 for (letters = 'a'; letters <= 'z'; letters++)
-putchar(letters);
 {
 if (letters != 'e', &&letters != 'q')
+{
+putchar(letters);
 }
-putchar('\n');
+}
+putchar('\n'
 return (0);
 }
