@@ -2,21 +2,17 @@
 
 /**
  * main - function
- * description alphabt print
+ * description - alphabt print
  *
  * Return: 0
  */
 
 int main(void)
 {
-char letters;
-for (letters = 'a'; letters <= 'z'; letters++)
-{
-if (letters != 'e', &&letters != 'q')
-{
+char letters = 'a';
+for (letters = 'a'; letters <= 'z'; letters++);
+if (letters != 'e' && letters != 'q')
 putchar(letters);
-}
-}
-putchar('\n'
+putchar('\n');
 return (0);
 }
