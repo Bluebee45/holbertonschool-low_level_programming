@@ -11,9 +11,9 @@
 void print_alphabet_x10(void)
 {
 char x, u;
-for (u = 0; u <= 9; x++)
+for (u = 0; u <= 9; u++)
 {
-for (x = 'a'; x <= 'z'; u++)
+for (x = 'a'; x <= 'z'; x++)
 {
 putchar('x');
 }
