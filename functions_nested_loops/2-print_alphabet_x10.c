@@ -11,11 +11,11 @@
 void print_alphabet_x10(void)
 {
 char x, u;
-for (x = 0; x <= 9; x++)
+for (u = 0; u <= 9; x++)
 {
-for (u = 'a'; u <= 'z'; u++)
+for (x = 'a'; x <= 'z'; u++)
 {
-putchar('u');
+putchar(x);
 }
 putchar('\n');
 }
