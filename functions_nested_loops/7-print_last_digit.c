@@ -3,11 +3,10 @@
 /**
  * print_last_digit - function
  * description - print the last digit of a number
- * @c: is the argument for the function
+ * @n: is the argument for the function
  *
  * Return: 0
  */
-
 int print_last_digit(int n)
 {
 int last;
