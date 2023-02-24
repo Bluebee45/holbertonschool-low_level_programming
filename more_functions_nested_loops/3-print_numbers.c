@@ -4,8 +4,7 @@
  * print_numbers - function
  * description - Prints the numbers from 0-9.
  *
- * Return: 0
- */
+ * Return: 
 void print_numbers(void)
 {
 int num;
