@@ -7,11 +7,9 @@
 
 void _print_rev_recursion(char *s)
 {
-		int c;
-for (c = 0; s[c] != 0; c++)
-{
-}
-for (c = c - 1; c >= 0; c--)
-_putchar(s[c]);
-_putchar('\n');
+    if (s[0] != '\0')
+    {
+        _print_rev_recursion(s + 1);
+        _putchar(s[0]);
+    }
 }
