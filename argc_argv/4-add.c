@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - 
+ * main - function
  * description - Prints the addition of positive numbers
  * @argc: The number of arguments passed to the program.
  * @argv: An array of pointers to the arguments.
