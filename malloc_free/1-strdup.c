@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
  * _strdup - function
  * description - check the code for Holberton School students.
@@ -10,6 +11,7 @@ char *_strdup(char *str)
 {
 char *my_array;
 int i, len;
+
 my_array = malloc(sizeof(str));
 i = len = 0;
 while (str[i] != '\0')
