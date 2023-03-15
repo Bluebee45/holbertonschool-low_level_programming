@@ -7,25 +7,17 @@
  * @str: argument for array
  * Return: Always 0.
  */
-char *_strdup(char *str)
+char *create_array(unsigned int size, char c)
 {
-char *my_array;
-int i, len;
+	char *array;
+	unsigned int index;
 
-my_array = malloc(sizeof(str));
-i = len = 0;
-while (str[i] != '\0')
-{
-len++;
-i++;
-}
-if (my_array == NULL)
+if (size == 0)
 return (NULL);
-i = 0;
-while (str[i] != '\0')
-{
-my_array[i] = str[i];
-i++;
-}
-return (my_array);
+array = malloc(sizeof(char) * size);
+if (array == NULL)
+return (NULL);
+for (index = 0; index < size; index++)
+array[index] = c;
+return (array);
 }
