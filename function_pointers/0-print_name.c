@@ -2,14 +2,13 @@
 
 /**
  * print_name - function
- * description - print a name 
+ * description - print a name
  * @name: argument for the function
  * @f: argument for the function
  */
-void print_name(char *name, void (*f)(char *));
+void print_name(char *name, void (*f)(char *))
 {
-  if (name == NULL || f == NULL)
-    return;
-
-  f(name);
+if (name == NULL || f == NULL)
+return;
+f(name);
 }
