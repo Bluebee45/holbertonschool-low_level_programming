@@ -42,6 +42,10 @@ int main(void)
     simple_print_buffer(buffer, 98);
     _memcpy(buffer + 50, buffer2, 10);
     printf("-------------------------------------------------\n");
+<<<<<<< HEAD
     simple_print_buffer(buffer, 98);    
+=======
+    simple_print_buffer(buffer, 98);
+>>>>>>> ce4a9fb9d69684ef1b293a0c92fa7ae0793c2a09
     return (0);
 }
